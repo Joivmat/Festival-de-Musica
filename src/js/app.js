@@ -1,7 +1,31 @@
 document.addEventListener('DOMContentLoaded', function(){
     navegacionFija();
     crearGaleria();
+    resaltarEnlace();
 })
+
+function resaltarEnlace(){
+    document.addEventListener('scroll', function(){
+        const sections = document.querySelectorAll('section')
+        const navLinks = document.querySelectorAll('.navegacion-principal a')
+
+        let actual = '';
+        sections.forEach(function(section){
+           const sectionTop = section.offsetTop;
+           const sectionHeight = section.clientHeight;
+           if(window.scrollY >= (sectionTop - sectionHeight / 3)){
+                actual = section.id
+           }
+        })
+
+        navLinks.forEach(function(link){
+            link.classList.remove('active')
+            if(link.getAttribute('href') === '#' + actual){
+                link.classList.add('active')
+            }
+        })
+    })
+}
 
 function navegacionFija(){
     const header = document.querySelector('.header')
