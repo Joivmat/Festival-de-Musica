@@ -98,7 +98,7 @@ Esto iniciará:
 ## Demo
 
 Puedes ver una versión en línea del proyecto aquí:  
-[Festival de Música - Demo](https://tu-demo-en-netlify-o-vercel.netlify.app)
+[Festival de Música - Demo](https://joivmat-festival-de-musical.netlify.app/)
     
 
 ## Roadmap (futuras mejoras)
