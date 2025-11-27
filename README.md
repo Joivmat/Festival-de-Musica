@@ -94,7 +94,13 @@ Esto iniciará:
 - Watchers para JS y SCSS
 - Sourcemaps
 
+
+## Demo
+
+Puedes ver una versión en línea del proyecto aquí:  
+[Festival de Música - Demo](https://tu-demo-en-netlify-o-vercel.netlify.app)
     
+
 ## Roadmap (futuras mejoras)
 
 - Añadir estructura backend básica (posiblemente Node + SQL).
@@ -113,3 +119,7 @@ En desarrollo — El proyecto está activo y se sigue expandiendo.
 ## Aprendizajes / Notas del autor
 
 Este proyecto me ha permitido practicar un flujo de trabajo real con Git, usar SASS de forma más profesional, automatizar tareas con Node y Gulp, y aplicar JavaScript para mejorar la interacción del sitio. También me está sirviendo para prepararme para integrar más adelante un backend utilizando SQL.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. 
